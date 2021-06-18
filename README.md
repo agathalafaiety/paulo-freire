@@ -1,2 +1,2 @@
 # biografia-PauloFreire
-Projeto desenvolvido em grupo para a semana Paulo Freire na Etec
+Projeto desenvolvido para a semana Paulo Freire na Etec
