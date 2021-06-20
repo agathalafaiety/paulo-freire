@@ -1,6 +1,6 @@
 * {
   margin: 0px;
-  padding: 0px; 
+  padding: 0px;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -22,14 +22,14 @@ nav {
   text-align: center;
 }
 
-nav > a {
+nav>a {
   text-decoration: none;
   color: #f0fff6;
   font-weight: bold;
   margin-right: 20px;
 }
 
-nav > a:hover {
+nav>a:hover {
   text-decoration: underline;
   color: #4f7474;
 }
@@ -49,11 +49,11 @@ article {
   text-align: left;
 }
 
-article > aside {
+article>aside {
   background-color: #9ec0b1;
-
 }
-aside > p {
+
+aside>p {
   text-align: right;
   color: #f0fff0;
 }
@@ -65,13 +65,13 @@ footer {
   margin: 0px;
 }
 
-footer > a {
+footer>a {
   margin: 0px;
   color: white;
   text-decoration: none;
 }
 
-footer > a:hover {
+footer>a:hover {
   color: #bbdbcc;
 }
 
@@ -82,9 +82,9 @@ h1 {
 }
 
 h2 {
- color: #f0fff6;
- text-align: center;
- text-shadow: 1px 1px 2px rgba(54, 89, 89, 0.576)
+  color: #f0fff6;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(54, 89, 89, 0.576)
 }
 
 #intro-paulo {
@@ -107,7 +107,53 @@ p {
   text-align: justify;
   text-indent: 20px;
 }
-main > aside {
-  color: #f0fff0;
+
+main>aside {
+  color: #ffffff;
 }
 
+h5>a {
+  margin: 0px;
+  color: #4f7474;
+  text-decoration: none;
+}
+
+h5>a:hover {
+  color: #f0fff6;
+}
+
+li {
+  font-weight: bold;
+  color: #324444;
+}
+
+.livros {
+  width: 200px;
+  height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.links {
+  text-align: center;
+}
+
+p>a {
+  color: #537979;
+  text-decoration: none;
+}
+
+p>a:hover {
+  color: #9ec0b1;
+}
+
+#topo {
+  text-decoration: none;
+  color: #324444;
+  padding: 10px;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  box-shadow: 3px 3px 3px 3px rgba(51, 51, 51, 0.788);
+}
